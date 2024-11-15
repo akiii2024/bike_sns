@@ -250,8 +250,8 @@ class _HomePageState extends State<HomePage> {
             MarkerLayer(
               markers: [
                 Marker(
-                  width: 120.0,
-                  height: 100.0,
+                  width: 200.0,
+                  height: 150.0,
                   point: _currentPosition!,
                   child: Column(
                     children: [
@@ -259,17 +259,21 @@ class _HomePageState extends State<HomePage> {
                         CustomPaint(
                           painter: BubblePainter(),
                           child: Container(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(12.0),
                             decoration: BoxDecoration(
                               color: Colors.white,
-                              borderRadius: BorderRadius.circular(12.0),
+                              borderRadius: BorderRadius.circular(15.0),
                             ),
-                            constraints: const BoxConstraints(maxWidth: 100.0),
-                            margin: const EdgeInsets.only(bottom: 8.0),
+                            constraints: const BoxConstraints(
+                              maxWidth: 160.0,
+                              maxHeight: 60.0,
+                            ),
+                            margin: const EdgeInsets.only(bottom: 12.0),
                             child: Text(
                               _sentMessage!,
-                              style: const TextStyle(fontSize: 12.0),
+                              style: const TextStyle(fontSize: 14.0),
                               textAlign: TextAlign.center,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                           ),
