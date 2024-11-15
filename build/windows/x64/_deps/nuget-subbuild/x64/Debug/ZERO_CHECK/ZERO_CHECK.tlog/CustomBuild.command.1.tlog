@@ -1,0 +1,10 @@
+^C:\USERS\AKI-I\DOCUMENTS\FLUTTER_TACHIBANA\BIKE_SNS\BUILD\WINDOWS\X64\_DEPS\NUGET-SUBBUILD\CMAKEFILES\1D2A7D4D08ECCE5026E74FB78EA31A17\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/_deps/nuget-subbuild -BC:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/_deps/nuget-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/_deps/nuget-subbuild/nuget-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

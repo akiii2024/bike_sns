@@ -1,0 +1,13 @@
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/icudtl.dat
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/flutter_windows.dll
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/geolocator_windows_plugin.dll
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/permission_handler_windows_plugin.dll
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/packages/flutter_map/lib/assets/flutter_map_logo.png
+C:/Users/aki-i/Documents/flutter_tachibana/bike_sns/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
