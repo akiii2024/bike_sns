@@ -110,30 +110,42 @@ class _HomePageState extends State<HomePage> {
                     content: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.network(
-                          userData['imageUrl'],
-                          loadingBuilder: (BuildContext context, Widget child,
-                              ImageChunkEvent? loadingProgress) {
-                            if (loadingProgress == null) {
-                              return child;
-                            } else {
-                              return Center(
-                                child: CircularProgressIndicator(
-                                  value: loadingProgress.expectedTotalBytes !=
-                                          null
-                                      ? loadingProgress.cumulativeBytesLoaded /
-                                          (loadingProgress.expectedTotalBytes ??
-                                              1)
-                                      : null,
-                                ),
-                              );
-                            }
-                          },
-                          errorBuilder: (BuildContext context, Object error,
-                              StackTrace? stackTrace) {
-                            return const Icon(Icons.error);
-                          },
-                        ),
+                        userData['imageUrl'].startsWith('assets')
+                            ? Image.asset(
+                                userData['imageUrl'],
+                                errorBuilder: (BuildContext context,
+                                    Object error, StackTrace? stackTrace) {
+                                  return const Icon(Icons.error);
+                                },
+                              )
+                            : Image.network(
+                                userData['imageUrl'],
+                                loadingBuilder: (BuildContext context,
+                                    Widget child,
+                                    ImageChunkEvent? loadingProgress) {
+                                  if (loadingProgress == null) {
+                                    return child;
+                                  } else {
+                                    return Center(
+                                      child: CircularProgressIndicator(
+                                        value: loadingProgress
+                                                    .expectedTotalBytes !=
+                                                null
+                                            ? loadingProgress
+                                                    .cumulativeBytesLoaded /
+                                                (loadingProgress
+                                                        .expectedTotalBytes ??
+                                                    1)
+                                            : null,
+                                      ),
+                                    );
+                                  }
+                                },
+                                errorBuilder: (BuildContext context,
+                                    Object error, StackTrace? stackTrace) {
+                                  return const Icon(Icons.error);
+                                },
+                              ),
                         const SizedBox(height: 10),
                         Text('ユーザー名: ${userData['username']}'),
                         Text('バイク名: ${userData['bikeName']}'),

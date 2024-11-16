@@ -1,0 +1,90 @@
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android related
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.idea/
+android/app/build/
+android/key.properties
+android/**/*.keystore
+android/**/*.jks
+
+# Xcode related
+ios/Pods/
+ios/xcuserdata/
+ios/DerivedData/
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.pbxuser
+ios/*.moved-aside
+ios/*.xcuserstate
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Windows related
+windows/flutter/ephemeral/
+windows/.dart_tool/
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+windows/.packages
+windows/build/
+
+# Linux related
+linux/flutter/ephemeral/
+linux/.dart_tool/
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+linux/.packages
+linux/build/
+
+# macOS related
+macos/flutter/ephemeral/
+macos/.dart_tool/
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+macos/.packages
+macos/build/
+
+# Web related
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.packages
+web/build/
+
+# Miscellaneous
+*.log
+*.lock
+*.tmp
+*.temp
+*.swp
+*.swo
+*.DS_Store
+*.iml
+*.hprof
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
